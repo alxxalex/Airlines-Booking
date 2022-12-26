@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 
 /*@author Radoi Alexandru*/
 public class Calendar extends javax.swing.JDialog {
+
     private String date;
 
     public Calendar(java.awt.Frame parent, boolean modal) {
@@ -12,7 +13,6 @@ public class Calendar extends javax.swing.JDialog {
         initComponents();
         jCalendar1.setDecorationBackgroundColor(Color.white);
     }
-
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents

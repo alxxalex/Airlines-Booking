@@ -271,6 +271,7 @@ public class Flight extends javax.swing.JFrame {
         tfWhenOff.setEditable(false);
         tfWhenOff.setBackground(new java.awt.Color(255, 255, 255));
         tfWhenOff.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        tfWhenOff.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         tfWhenOff.setOpaque(true);
         tfWhenOff.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -282,6 +283,7 @@ public class Flight extends javax.swing.JFrame {
         tfWhenBack.setEditable(false);
         tfWhenBack.setBackground(new java.awt.Color(255, 255, 255));
         tfWhenBack.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        tfWhenBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         tfWhenBack.setOpaque(true);
         tfWhenBack.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
